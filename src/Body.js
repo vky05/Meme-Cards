@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import MemeCard from "./MemeCard";
-import Abc from "./abc";
 import "./index.css";
 import Shimmer from "./Shimmer";
-import { eventWrapper } from "@testing-library/user-event/dist/utils";
 const Body = (props) => {
   const [memes, setMemes] = useState([]);
   const [showShimmer, setShowShimmer] = useState(false);
