@@ -28,7 +28,7 @@ const Body = (props) => {
   };
 
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap justify-between">
     
         {memes.map((meme, index) => <MemeCard key={index} data={meme} />)}
         {showShimmer && <Shimmer />}

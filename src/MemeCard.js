@@ -6,8 +6,8 @@ const MemeCard = ({ data }) => {
   
   return (
     <div className="p-5 m-5 border border-black  rounded-lg">
-      <img className="h-64 w-64" alt="meme" src={url} />
-      <p>{title}</p>
+      <img className="h-64 w-72" alt="meme" src={url} />
+      <p className="w-64">{title}</p>
     </div>
   );
 };
