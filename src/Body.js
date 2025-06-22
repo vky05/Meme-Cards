@@ -10,7 +10,7 @@ const Body = (props) => {
     window.addEventListener("scroll",handleScroll)
     return ()=> window.removeEventListener("scroll", handleScroll);
   }, []);
-//hello
+//hello vicky
   const handleScroll = () =>{
     if(window.scrollY + window.innerHeight >= document.body.scrollHeight -1){
       console.log("running")
